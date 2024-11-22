@@ -1,0 +1,304 @@
+// Import all of Bootstrap's CSS
+@import "bootstrap/scss/bootstrap";
+
+//Import Bootstrap's icons
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+//Import normalize
+@import url(./normalize.scss);
+
+/*------------------------------ document settings ------------------------------*/
+
+:root {
+  --page-bg: #ffffff;
+  --nav-bg: #000000b3;
+  --modal-bg: #d1d1d1;
+
+  --grad-black: #000000b3;
+  --grad-beige: #a57758b3;
+
+  --grad-grey: #1c1c1ccc;
+  --grad-brown: #553518cc;
+  --grad-orange: #d86820cc;
+  --grad-gray: #818181;
+
+  --black: #000000;
+  --white: #ffffff;
+  --grey: #f5f5f5;
+  --blue: #6881a4;
+  --salmon: #cf5f14;
+
+  --whitepacity: #ffffffc4;
+  --whitepacity-light: #ffffff80;
+  --whitepacity-transparent: #ffffff33;
+  --blackpacity: #0000008e;
+  --blackpacity-light: #00000015;
+  --shadows: #00000033;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Wix Madefor Display", sans-serif;
+  font-style: normal;
+}
+
+/*------------------------------ tags and general sttings ------------------------------*/
+
+body {
+  line-height: 1.6;
+  background-color: #f5f5f5;
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #B71C1C;
+  padding: 1rem;
+  z-index: 1000;
+}
+
+.navbar-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  height: 40px;
+}
+
+.profile-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  cursor: pointer;
+}
+
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  right: -300px;
+  top: 0;
+  width: 300px;
+  height: 100%;
+  background-color: white;
+  transition: 0.3s;
+  z-index: 1001;
+  padding: 2rem;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar.active {
+  right: 0;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  background: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+#page{
+  padding: 72px auto 100px;
+}
+
+/* Main Content */
+.page-content {
+  padding: 2rem;
+  max-width: 1200px;
+}
+
+iframe{
+  width: 100%;
+  height: 100vh;
+}
+
+/* Footer */
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background-color: #B71C1C;
+  color: white;
+  padding: 1rem;
+}
+
+.footer-content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+
+  & p{
+    margin: 0;
+  }
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+
+  a {
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+}
+
+a {
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+/* Login Form */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.login-form input {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.submit-btn {
+  background-color: #B71C1C;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Añade estos estilos a tu archivo CSS existente */
+
+.about-container {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.about-icon-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  text-align: center;
+  width: 200px;
+  margin: 20px;
+  transition: transform 0.3s ease;
+}
+
+.about-icon-card:hover {
+  transform: translateY(-5px);
+}
+
+.about-icon-card i {
+  font-size: 2.5rem;
+  color: #B71C1C;
+  margin-bottom: 15px;
+}
+
+.about-icon-card h3 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.about-content-card {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  margin: 20px;
+  width: 70%;
+}
+
+.content-inner {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.content-inner h3 {
+  color: #B71C1C;
+  margin-bottom: 20px;
+}
+
+.content-inner p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.content-inner ul {
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
+
+.content-inner li {
+  margin-bottom: 10px;
+}
+
+/* Posicionamiento */
+.left {
+  margin-right: auto;
+}
+
+.right {
+  margin-left: auto;
+}
+
+.about-icon-card.left {
+  transform: translateX(50px);
+}
+
+.about-icon-card.right {
+  transform: translateX(-50px);
+}
+
+.about-content-card.left {
+  transform: translateX(-50px);
+}
+
+.about-content-card.right {
+  transform: translateX(50px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-icon-card,
+  .about-content-card {
+      width: 90%;
+      margin: 20px auto;
+      transform: none !important;
+  }
+
+  .about-icon-card {
+      width: 200px;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .search-form {
+      flex-direction: column;
+  }
+}

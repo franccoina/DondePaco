@@ -1,0 +1,344 @@
+{
+  "users": [
+    {
+      "id": "1706764800000",
+      "name": "John",
+      "lastName": "Doe",
+      "username": "johndoe",
+      "password": "password"
+    },
+    {
+      "id": "1709952000000",
+      "name": "Jane",
+      "lastName": "Doe",
+      "username": "janedoe",
+      "password": "password"
+    }
+  ],
+  "products": [
+    {
+      "id": "1706764800089",
+      "title": "Clásica Americana",
+      "ingredients": "Carne de res, queso cheddar, lechuga, tomate, cebolla, pepinillos",
+      "tags": [
+        "Clásica",
+        "Beef"
+      ],
+      "rating": 4,
+      "price": 25000,
+      "image1": "https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "image2": "https://images.pexels.com/photos/3738730/pexels-photo-3738730.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "image3": "https://images.pexels.com/photos/1600727/pexels-photo-1600727.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "image4": "https://images.pexels.com/photos/22119668/pexels-photo-22119668/free-photo-of-comida-semillas-naturaleza-muerta-fotografia-de-comida.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "reviews": [
+        {
+          "title": "El renacimiento de la Alta Cocina",
+          "autor": "Semana",
+          "url": "https://www.semana.com/"
+        },
+        {
+          "title": "Los chefs más increíbles de la Gastronomía colombiana",
+          "autor": "El Espectador",
+          "url": "https://www.elespectador.com/"
+        }
+      ]
+    },
+    {
+      "id": "1706764800023",
+      "title": "Veggie Delight",
+      "ingredients": "Hamburguesa de lentejas, aguacate, rúcula, tomate, cebolla caramelizada",
+      "tags": [
+        "Vegetariana",
+        "Saludable"
+      ],
+      "rating": 4,
+      "price": 28000,
+      "image4": "https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "image1": "https://images.pexels.com/photos/3738730/pexels-photo-3738730.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "image2": "https://images.pexels.com/photos/1600727/pexels-photo-1600727.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "image3": "https://images.pexels.com/photos/22119668/pexels-photo-22119668/free-photo-of-comida-semillas-naturaleza-muerta-fotografia-de-comida.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "reviews": [
+        {
+          "title": "El renacimiento de la Alta Cocina",
+          "autor": "Semana",
+          "url": "https://www.semana.com/"
+        },
+        {
+          "title": "Los chefs más increíbles de la Gastronomía colombiana",
+          "autor": "El Espectador",
+          "url": "https://www.elespectador.com/"
+        }
+      ]
+    },
+    {
+      "id": "1706764800043",
+      "title": "Picante Mexicana",
+      "ingredients": "Carne de res, jalapeños, guacamole, queso pepper jack, pico de gallo",
+      "tags": [
+        "Picante",
+        "Mexicana"
+      ],
+      "rating": 5,
+      "price": 30000,
+      "image3": "https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "image4": "https://images.pexels.com/photos/3738730/pexels-photo-3738730.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "image1": "https://images.pexels.com/photos/1600727/pexels-photo-1600727.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "image2": "https://images.pexels.com/photos/22119668/pexels-photo-22119668/free-photo-of-comida-semillas-naturaleza-muerta-fotografia-de-comida.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "reviews": [
+        {
+          "title": "El renacimiento de la Alta Cocina",
+          "autor": "Semana",
+          "url": "https://www.semana.com/"
+        },
+        {
+          "title": "Los chefs más increíbles de la Gastronomía colombiana",
+          "autor": "El Espectador",
+          "url": "https://www.elespectador.com/"
+        }
+      ]
+    },
+    {
+      "id": "17067648009876",
+      "title": "BBQ Bacon Deluxe",
+      "ingredients": "Carne de res, tocino ahumado, queso cheddar, aros de cebolla, salsa BBQ",
+      "tags": [
+        "BBQ",
+        "Bacon"
+      ],
+      "rating": 5,
+      "price": 32000,
+      "image2": "https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "image3": "https://images.pexels.com/photos/3738730/pexels-photo-3738730.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "image4": "https://images.pexels.com/photos/1600727/pexels-photo-1600727.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "image1": "https://images.pexels.com/photos/22119668/pexels-photo-22119668/free-photo-of-comida-semillas-naturaleza-muerta-fotografia-de-comida.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "reviews": [
+        {
+          "title": "El renacimiento de la Alta Cocina",
+          "autor": "Semana",
+          "url": "https://www.semana.com/"
+        },
+        {
+          "title": "Los chefs más increíbles de la Gastronomía colombiana",
+          "autor": "El Espectador",
+          "url": "https://www.elespectador.com/"
+        }
+      ]
+    },
+    {
+      "id": "1706764800102",
+      "title": "Mediterránea Feta",
+      "ingredients": "Carne de cordero, queso feta, aceitunas, tomate seco, tzatziki",
+      "tags": [
+        "Mediterránea",
+        "Gourmet"
+      ],
+      "rating": 4,
+      "price": 35000,
+      "image1": "https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "image2": "https://images.pexels.com/photos/3738730/pexels-photo-3738730.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "image3": "https://images.pexels.com/photos/1600727/pexels-photo-1600727.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "image4": "https://images.pexels.com/photos/22119668/pexels-photo-22119668/free-photo-of-comida-semillas-naturaleza-muerta-fotografia-de-comida.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "reviews": [
+        {
+          "title": "El renacimiento de la Alta Cocina",
+          "autor": "Semana",
+          "url": "https://www.semana.com/"
+        },
+        {
+          "title": "Los chefs más increíbles de la Gastronomía colombiana",
+          "autor": "El Espectador",
+          "url": "https://www.elespectador.com/"
+        }
+      ]
+    },
+    {
+      "id": "1706764800267",
+      "title": "Pollo Teriyaki",
+      "ingredients": "Pechuga de pollo, salsa teriyaki, piña asada, lechuga, mayonesa wasabi",
+      "tags": [
+        "Pollo",
+        "Asiática"
+      ],
+      "rating": 4,
+      "price": 27000,
+      "image4": "https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "image1": "https://images.pexels.com/photos/3738730/pexels-photo-3738730.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "image2": "https://images.pexels.com/photos/1600727/pexels-photo-1600727.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "image3": "https://images.pexels.com/photos/22119668/pexels-photo-22119668/free-photo-of-comida-semillas-naturaleza-muerta-fotografia-de-comida.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "reviews": [
+        {
+          "title": "El renacimiento de la Alta Cocina",
+          "autor": "Semana",
+          "url": "https://www.semana.com/"
+        },
+        {
+          "title": "Los chefs más increíbles de la Gastronomía colombiana",
+          "autor": "El Espectador",
+          "url": "https://www.elespectador.com/"
+        }
+      ]
+    },
+    {
+      "id": "1706764800084",
+      "title": "Doble Queso Funghi",
+      "ingredients": "Doble carne de res, champiñones salteados, queso suizo, queso azul, rúcula",
+      "tags": [
+        "Queso",
+        "Gourmet"
+      ],
+      "rating": 5,
+      "price": 36000,
+      "image3": "https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "image4": "https://images.pexels.com/photos/3738730/pexels-photo-3738730.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "image1": "https://images.pexels.com/photos/1600727/pexels-photo-1600727.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "image2": "https://images.pexels.com/photos/22119668/pexels-photo-22119668/free-photo-of-comida-semillas-naturaleza-muerta-fotografia-de-comida.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "reviews": [
+        {
+          "title": "El renacimiento de la Alta Cocina",
+          "autor": "Semana",
+          "url": "https://www.semana.com/"
+        },
+        {
+          "title": "Los chefs más increíbles de la Gastronomía colombiana",
+          "autor": "El Espectador",
+          "url": "https://www.elespectador.com/"
+        }
+      ]
+    },
+    {
+      "id": "1706764804820",
+      "title": "Pescado Crujiente",
+      "ingredients": "Filete de pescado empanizado, ensalada de col, salsa tártara, pepinillos",
+      "tags": [
+        "Pescado",
+        "Crujiente"
+      ],
+      "rating": 4,
+      "price": 29000,
+      "image2": "https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "image3": "https://images.pexels.com/photos/3738730/pexels-photo-3738730.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "image4": "https://images.pexels.com/photos/1600727/pexels-photo-1600727.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "image1": "https://images.pexels.com/photos/22119668/pexels-photo-22119668/free-photo-of-comida-semillas-naturaleza-muerta-fotografia-de-comida.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "reviews": [
+        {
+          "title": "El renacimiento de la Alta Cocina",
+          "autor": "Semana",
+          "url": "https://www.semana.com/"
+        },
+        {
+          "title": "Los chefs más increíbles de la Gastronomía colombiana",
+          "autor": "El Espectador",
+          "url": "https://www.elespectador.com/"
+        }
+      ]
+    },
+    {
+      "id": "170676480304",
+      "title": "Vegana Beyond",
+      "ingredients": "Beyond Meat patty, queso vegano, lechuga, tomate, cebolla morada, salsa vegana",
+      "tags": [
+        "Vegana",
+        "Plant-based"
+      ],
+      "rating": 4,
+      "price": 33000,
+      "image1": "https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "image2": "https://images.pexels.com/photos/3738730/pexels-photo-3738730.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "image3": "https://images.pexels.com/photos/1600727/pexels-photo-1600727.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "image4": "https://images.pexels.com/photos/22119668/pexels-photo-22119668/free-photo-of-comida-semillas-naturaleza-muerta-fotografia-de-comida.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "reviews": [
+        {
+          "title": "El renacimiento de la Alta Cocina",
+          "autor": "Semana",
+          "url": "https://www.semana.com/"
+        },
+        {
+          "title": "Los chefs más increíbles de la Gastronomía colombiana",
+          "autor": "El Espectador",
+          "url": "https://www.elespectador.com/"
+        }
+      ]
+    },
+    {
+      "id": "1706764803729",
+      "title": "Hawaiana Tropical",
+      "ingredients": "Carne de res, jamón, piña asada, queso provolone, salsa de mango habanero",
+      "tags": [
+        "Tropical",
+        "Dulce y Picante"
+      ],
+      "rating": 3,
+      "price": 31000,
+      "image4": "https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "image1": "https://images.pexels.com/photos/3738730/pexels-photo-3738730.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "image2": "https://images.pexels.com/photos/1600727/pexels-photo-1600727.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "image3": "https://images.pexels.com/photos/22119668/pexels-photo-22119668/free-photo-of-comida-semillas-naturaleza-muerta-fotografia-de-comida.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "reviews": [
+        {
+          "title": "El renacimiento de la Alta Cocina",
+          "autor": "Semana",
+          "url": "https://www.semana.com/"
+        },
+        {
+          "title": "Los chefs más increíbles de la Gastronomía colombiana",
+          "autor": "El Espectador",
+          "url": "https://www.elespectador.com/"
+        }
+      ]
+    },
+    {
+      "id": "1706764802836",
+      "title": "Ranchera Huevo Frito",
+      "ingredients": "Carne de res, huevo frito, frijoles refritos, queso manchego, pico de gallo",
+      "tags": [
+        "Ranchera",
+        "Huevo"
+      ],
+      "rating": 5,
+      "price": 34000,
+      "image3": "https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "image4": "https://images.pexels.com/photos/3738730/pexels-photo-3738730.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "image1": "https://images.pexels.com/photos/1600727/pexels-photo-1600727.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "image2": "https://images.pexels.com/photos/22119668/pexels-photo-22119668/free-photo-of-comida-semillas-naturaleza-muerta-fotografia-de-comida.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "reviews": [
+        {
+          "title": "El renacimiento de la Alta Cocina",
+          "autor": "Semana",
+          "url": "https://www.semana.com/"
+        },
+        {
+          "title": "Los chefs más increíbles de la Gastronomía colombiana",
+          "autor": "El Espectador",
+          "url": "https://www.elespectador.com/"
+        }
+      ]
+    },
+    {
+      "id": "1706764801826",
+      "title": "Portobello Gourmet",
+      "ingredients": "Portobello a la parrilla, queso de cabra, cebolla caramelizada, rúcula, pesto",
+      "tags": [
+        "Vegetariana",
+        "Gourmet"
+      ],
+      "rating": 4,
+      "price": 30000,
+      "image2": "https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "image3": "https://images.pexels.com/photos/3738730/pexels-photo-3738730.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "image4": "https://images.pexels.com/photos/1600727/pexels-photo-1600727.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "image1": "https://images.pexels.com/photos/22119668/pexels-photo-22119668/free-photo-of-comida-semillas-naturaleza-muerta-fotografia-de-comida.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "reviews": [
+        {
+          "title": "El renacimiento de la Alta Cocina",
+          "autor": "Semana",
+          "url": "https://www.semana.com/"
+        },
+        {
+          "title": "Los chefs más increíbles de la Gastronomía colombiana",
+          "autor": "El Espectador",
+          "url": "https://www.elespectador.com/"
+        }
+      ]
+    }
+  ]
+}
