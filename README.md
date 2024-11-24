@@ -52,8 +52,36 @@ Nuestro proyecto está desplegado en Vercel. Siéntete libre de interactuar con 
 
 ## GitHub
 
-Y finalmente, aquí encontrarás nuestro repositorio de GitHub:
+Aquí encontrarás nuestro repositorio de GitHub:
    [Repositorio de GitHub](https://github.com/franccoina/DondePaco)
+
+## Instalación
+
+1. Clona el repositorio:
+
+```bash
+git clone https://github.com/franccoina/DondePaco
+```
+
+2. Instala las dependencias corriendo el comando en la terminal:
+
+```bash
+npm install
+```
+
+3. Inicia el JSON-Server corriendo el comando en la terminal:
+
+```bash
+npx json-server public/data/database.json
+```
+
+4. Corre el proyecto en la terminal:
+
+```bash
+npm run dev
+```
+
+5. Abre [http://localhost:3000](http://localhost:3000) en tu navegador y disfruta del proyecto.
 
 --------------------------------------------------------------------------------------------------------
 
