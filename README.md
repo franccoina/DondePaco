@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://scontent.feoh3-1.fna.fbcdn.net/v/t39.30808-6/348283431_934511700988620_225799338627609589_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=Fn5Fe4jnoIUQ7kNvgFP7Uy0&_nc_zt=23&_nc_ht=scontent.feoh3-1.fna&_nc_gid=A2YEhlkK1wo2aNHa6SvfLrG&oh=00_AYD9YdKMrIBvXH1FOzTQwUjKZP_oWQfL-49d3uUCjibTSQ&oe=67469146" alt="DondePaco-Logo" width="100%" />
+  <img src="./public/img/banner-dondepaco.webp" alt="DondePaco-Logo" width="100%" style="border-radius: 20px;"  />
 </div>
 
 <br>
@@ -97,7 +97,7 @@ npm run dev
 <br>
 
 <div align="center">
-  <img src="https://scontent.feoh3-1.fna.fbcdn.net/v/t39.30808-6/348283431_934511700988620_225799338627609589_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=Fn5Fe4jnoIUQ7kNvgFP7Uy0&_nc_zt=23&_nc_ht=scontent.feoh3-1.fna&_nc_gid=A2YEhlkK1wo2aNHa6SvfLrG&oh=00_AYD9YdKMrIBvXH1FOzTQwUjKZP_oWQfL-49d3uUCjibTSQ&oe=67469146" alt="DondePaco-Logo" width="100%" />
+  <img src="./public/img/logo-filled-dondepaco.webp" alt="DondePaco-Logo" width="200px" style="border-radius: 20px;"  />
 </div>
 
 <br>
