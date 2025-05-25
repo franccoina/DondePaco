@@ -14,6 +14,8 @@ document.getElementById('closeBtn').addEventListener('click', () => {
   document.getElementById('sidebar').classList.remove('active');
 });
 
+document.getElementById('year').textContent = new Date().getFullYear();
+
 const authForm = document.getElementById('authForm');
 const filterForm = document.getElementById('filterForm');
 filterForm.addEventListener('submit', function (e) {

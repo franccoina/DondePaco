@@ -13,11 +13,13 @@ const productId = urlParams.get("productId");
 
 document.getElementById('profileBtn').addEventListener('click', () => {
     document.getElementById('sidebar').classList.add('active');
-  });
-  
-  document.getElementById('closeBtn').addEventListener('click', () => {
+});
+
+document.getElementById('closeBtn').addEventListener('click', () => {
     document.getElementById('sidebar').classList.remove('active');
-  });
+});
+
+document.getElementById('year').textContent = new Date().getFullYear();
 
 document.addEventListener("DOMContentLoaded", async () => {
     if (productId) {

@@ -9,6 +9,8 @@ const search = document.querySelector("#search");
 
 const productList = document.getElementById('productList');
 
+document.getElementById('year').textContent = new Date().getFullYear();
+
 productList.addEventListener("click", (event) => {
   // Asegúrate de que se haga clic dentro de un enlace con el atributo data-id
   const productElement = event.target.closest("a[data-id]");
